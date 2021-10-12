@@ -1,0 +1,215 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.activeMenu {
+  color: #c89979 !important;
+  border-bottom: 1px solid #c89979;
+}
+.text-white:hover {
+  color: #c89979 !important;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+} */
+
+ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.button-banner:hover {
+  background-color: #c89979
+}
+
+.trend {
+  overflow: hidden;
+}
+
+.trend:hover .trend-in img {
+  transform: scale(1.5);
+}
+
+.trend-in {
+  height: 100%;
+  overflow: hidden;
+}
+
+.trend-in>div {
+  color: white;
+  top: 50%;
+  transform: translate(0%, -50%);
+  left: 5%;
+  z-index: 1;
+}
+
+.trend-in span {
+  width: 30%;
+  margin: 20px 0px;
+  height: 1px;
+  background: red;
+  display: block;
+}
+
+.product-item {
+  margin-top: 20px;
+}
+
+.product-item:hover {
+  transform: translate(0px, -5px);
+  transition: all 0.3s;
+  box-shadow: 1px 1px 5px #ccc;
+}
+
+.product-item button {
+  background-color: #C89979;
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+  border-radius: 0px;
+}
+
+.product-item button:hover {
+  color: white;
+  opacity: 0.8;
+}
+
+.product-item a {
+  color: #6c757d;
+  text-decoration: none;
+}
+
+.product-item p {
+  color: #C89979;
+}
+
+.product-item img {
+  display: block;
+  width: 100%;
+}
+
+.news>div {
+  overflow: hidden;
+}
+
+.news>div:hover img {
+  transform: scale(1.5);
+  transition: all 1.5s;
+}
+
+.news-title>h4:hover {
+  color: #C89979;
+}
+
+.footer h5 {
+  font-weight: bold;
+}
+
+.footer ul li a {
+  display: block;
+  color: white;
+  padding: 5px 0px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer ul li a:hover {
+  color: #C89979;
+}
+
+.footer .icon i {
+  display: inline-block;
+  padding: 10px;
+  border-radius: 50px;
+  color: white;
+  margin: 0px 5px;
+  font-size: 10px;
+}
+
+.login {
+  width: 500px;
+  margin: auto;
+}
+
+.footer .icon i:hover {
+  opacity: 0.8;
+}
+
+.button {
+  color: white;
+  background-color: #C89979;
+  border-radius: 0px;
+  border : 0px
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+
+.cart_icon {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  position: relative;
+}
+
+.icon_total {
+  padding: 2px 6px;
+  background-color: #C89979;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  position: absolute;
+  top: 0;
+  right: -3px;
+}
+
+.table_tr td, .table_tr th {
+  vertical-align: middle
+}
+
+.table_product {
+  text-align: center;
+}
+
+.table tr {
+  text-align: center;
+}
